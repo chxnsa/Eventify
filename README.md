@@ -5,16 +5,16 @@
 <h1 align="center">Eventify</h1>
 
 <p align="center">
-  <strong>Platform Pemesanan Tiket Event Modern</strong>
+  <strong>Modern Event Ticket Booking Platform</strong>
 </p>
 
 <p align="center">
-  <a href="#fitur">Fitur</a> •
-  <a href="#teknologi">Teknologi</a> •
-  <a href="#instalasi">Instalasi</a> •
-  <a href="#penggunaan">Penggunaan</a> •
-  <a href="#screenshot">Screenshot</a> •
-  <a href="#kontributor">Kontributor</a>
+  <a href="#features">Features</a> •
+  <a href="#technology">Technology</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#screenshots">Screenshots</a> •
+  <a href="#contributors">Contributors</a>
 </p>
 
 <p align="center">
@@ -26,61 +26,61 @@
 
 ---
 
-## 📖 Tentang Eventify
+## 📖 About Eventify
 
-**Eventify** adalah platform pemesanan tiket event berbasis web yang memungkinkan pengguna untuk menemukan, memesan, dan mengelola tiket untuk berbagai jenis event seperti konser, konferensi, workshop, festival, dan lainnya.
+**Eventify** is a web-based event ticket booking platform that allows users to discover, book, and manage tickets for various types of events such as concerts, conferences, workshops, festivals, and more.
 
-Platform ini menyediakan tiga jenis akun dengan peran berbeda:
-- **User** - Mencari event, memesan tiket, dan mengelola booking
-- **Organizer** - Membuat dan mengelola event, tiket, serta melihat laporan penjualan
-- **Admin** - Mengelola seluruh platform termasuk persetujuan organizer dan monitoring
+The platform provides three types of accounts with different roles:
+- **User** - Search for events, book tickets, and manage bookings
+- **Organizer** - Create and manage events, tickets, and view sales reports
+- **Admin** - Manage the entire platform including organizer approvals and monitoring
 
 ---
 
-## ✨ Fitur
+## ✨ Features
 
-### 🎫 Untuk User
-| Fitur | Deskripsi |
-|-------|-----------|
-| **Pencarian Event** | Cari event berdasarkan nama, lokasi, tanggal, dan kategori |
-| **Filter & Sorting** | Filter berdasarkan lokasi, tanggal dengan calendar picker, dan sorting |
-| **Pemesanan Tiket** | Pesan tiket dengan pilihan berbagai jenis tiket dan kuantitas |
-| **E-Ticket Digital** | Lihat dan download tiket dalam format PDF |
-| **Favorit Event** | Simpan event favorit dengan toggle love icon |
-| **Review & Rating** | Berikan review dan rating setelah menghadiri event |
-| **Cancel Booking** | Batalkan booking dengan pengembalian kuota tiket otomatis |
-| **Riwayat Booking** | Lihat semua riwayat pemesanan tiket |
+### 🎫 For Users
+| Feature | Description |
+|---------|-------------|
+| **Event Search** | Search events by name, location, date, and category |
+| **Filter & Sorting** | Filter by location, date with calendar picker, and sorting options |
+| **Ticket Booking** | Book tickets with various ticket types and quantities |
+| **Digital E-Ticket** | View and download tickets in PDF format |
+| **Favorite Events** | Save favorite events with toggle love icon |
+| **Review & Rating** | Give reviews and ratings after attending events |
+| **Cancel Booking** | Cancel bookings with automatic ticket quota refund |
+| **Booking History** | View all ticket booking history |
 
-### 🎭 Untuk Organizer
-| Fitur | Deskripsi |
-|-------|-----------|
-| **Dashboard** | Statistik event, penjualan, dan revenue |
-| **Manajemen Event** | Buat, edit, dan hapus event |
-| **Manajemen Tiket** | Kelola berbagai jenis tiket per event |
-| **Manajemen Booking** | Approve atau cancel booking dari user |
-| **Laporan Penjualan** | Lihat laporan penjualan dengan grafik |
+### 🎭 For Organizers
+| Feature | Description |
+|---------|-------------|
+| **Dashboard** | Event statistics, sales, and revenue |
+| **Event Management** | Create, edit, and delete events |
+| **Ticket Management** | Manage various ticket types per event |
+| **Booking Management** | Approve or cancel bookings from users |
+| **Sales Reports** | View sales reports with charts |
 
-### 👨‍💼 Untuk Admin
-| Fitur | Deskripsi |
-|-------|-----------|
-| **Dashboard** | Statistik keseluruhan platform |
-| **Manajemen User** | Kelola semua user di platform |
-| **Approval Organizer** | Setujui atau tolak pendaftaran organizer |
-| **Manajemen Event** | Monitor dan kelola semua event |
-| **Featured Event** | Tandai event untuk ditampilkan di hero slider |
-| **Laporan & Export** | Generate laporan dan export ke CSV |
+### 👨‍💼 For Admin
+| Feature | Description |
+|---------|-------------|
+| **Dashboard** | Overall platform statistics |
+| **User Management** | Manage all users on the platform |
+| **Organizer Approval** | Approve or reject organizer registrations |
+| **Event Management** | Monitor and manage all events |
+| **Featured Events** | Mark events to be displayed on hero slider |
+| **Reports & Export** | Generate reports and export to CSV |
 
-### 🎨 Fitur Umum
-- ✅ Hero slider dengan featured events
-- ✅ Responsive design untuk semua perangkat
-- ✅ Real-time kuota tiket
-- ✅ QR Code pada e-ticket
+### 🎨 General Features
+- ✅ Hero slider with featured events
+- ✅ Responsive design for all devices
+- ✅ Real-time ticket quota
+- ✅ QR Code on e-tickets
 - ✅ Multi-role authentication
-- ✅ Modern UI dengan Tailwind CSS
+- ✅ Modern UI with Tailwind CSS
 
 ---
 
-## 🛠 Teknologi
+## 🛠 Technology
 
 ### Backend
 - **Laravel 12** - PHP Framework
@@ -94,13 +94,13 @@ Platform ini menyediakan tiga jenis akun dengan peran berbeda:
 - **Vite** - Build Tool
 - **Chart.js** - Charts & Graphs
 
-### Package Tambahan
+### Additional Packages
 - **DomPDF** - PDF Generation
 - **Intervention Image** - Image Processing
 
 ---
 
-## 📋 Persyaratan Sistem
+## 📋 System Requirements
 
 - PHP >= 8.2
 - Composer >= 2.0
@@ -111,7 +111,7 @@ Platform ini menyediakan tiga jenis akun dengan peran berbeda:
 
 ---
 
-## 🚀 Instalasi
+## 🚀 Installation
 
 ### 1. Clone Repository
 ```bash
@@ -128,18 +128,18 @@ composer install
 npm install
 ```
 
-### 3. Konfigurasi Environment
+### 3. Configure Environment
 ```bash
-# Copy file environment
+# Copy environment file
 cp .env.example .env
 
 # Generate application key
 php artisan key:generate
 ```
 
-### 4. Konfigurasi Database
+### 4. Configure Database
 
-Edit file `.env` dan sesuaikan konfigurasi database:
+Edit the `.env` file and adjust the database configuration:
 ```env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -149,12 +149,12 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-### 5. Migrasi & Seeding Database
+### 5. Migrate & Seed Database
 ```bash
-# Jalankan migrasi
+# Run migrations
 php artisan migrate
 
-# Jalankan seeder (opsional, untuk data dummy)
+# Run seeders (optional, for dummy data)
 php artisan db:seed
 ```
 
@@ -172,18 +172,18 @@ npm run dev
 npm run build
 ```
 
-### 8. Jalankan Aplikasi
+### 8. Run Application
 ```bash
 php artisan serve
 ```
 
-Akses aplikasi di: `http://127.0.0.1:8000`
+Access the application at: `http://127.0.0.1:8000`
 
 ---
 
-## 👤 Akun Demo
+## 👤 Demo Accounts
 
-Setelah menjalankan seeder, gunakan akun berikut untuk testing:
+After running the seeder, use the following accounts for testing:
 
 | Role | Email | Password |
 |------|-------|----------|
@@ -193,20 +193,20 @@ Setelah menjalankan seeder, gunakan akun berikut untuk testing:
 
 ---
 
-## 📁 Struktur Folder
+## 📁 Folder Structure
 ```
 eventify/
 ├── app/
 │   ├── Http/
 │   │   ├── Controllers/
-│   │   │   ├── Admin/          # Controller untuk admin
-│   │   │   ├── Organizer/      # Controller untuk organizer
-│   │   │   ├── User/           # Controller untuk user
+│   │   │   ├── Admin/          # Controllers for admin
+│   │   │   ├── Organizer/      # Controllers for organizer
+│   │   │   ├── User/           # Controllers for user
 │   │   │   └── ...
 │   │   └── Middleware/         # Custom middleware
 │   └── Models/                 # Eloquent models
 ├── config/
-│   └── locations.php           # Daftar kota Indonesia
+│   └── locations.php           # Indonesian city list
 ├── database/
 │   ├── migrations/             # Database migrations
 │   └── seeders/                # Database seeders
@@ -216,14 +216,14 @@ eventify/
 │   ├── css/                    # Stylesheets
 │   ├── js/                     # JavaScript
 │   └── views/
-│       ├── admin/              # Views untuk admin
-│       ├── auth/               # Views untuk authentication
+│       ├── admin/              # Views for admin
+│       ├── auth/               # Views for authentication
 │       ├── components/         # Reusable components
-│       ├── events/             # Views untuk event
-│       ├── home/               # Views untuk home
+│       ├── events/             # Views for events
+│       ├── home/               # Views for home
 │       ├── layouts/            # Layout templates
-│       ├── organizer/          # Views untuk organizer
-│       └── user/               # Views untuk user
+│       ├── organizer/          # Views for organizer
+│       └── user/               # Views for user
 ├── routes/
 │   ├── web.php                 # Main routes
 │   ├── admin.php               # Admin routes
@@ -305,7 +305,7 @@ Login → Approve/Reject Organizers → Manage Users → Monitor Events → Set 
 
 ---
 
-## 📱 Screenshot
+## 📱 Screenshots
 
 ### Landing Page
 ![Landing Page](docs/screenshots/landing.png)
@@ -326,22 +326,22 @@ Login → Approve/Reject Organizers → Manage Users → Monitor Events → Set 
 
 ## 🧪 Testing
 ```bash
-# Jalankan semua tests
+# Run all tests
 php artisan test
 
-# Jalankan test dengan coverage
+# Run tests with coverage
 php artisan test --coverage
 ```
 
 ---
 
-## 📄 Lisensi
+## 📄 License
 
-Didistribusikan di bawah Lisensi MIT. Lihat `LICENSE` untuk informasi lebih lanjut.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-## 👨‍💻 Kontributor
+## 👨‍💻 Contributors
 
 <table>
   <tr>
@@ -357,7 +357,7 @@ Didistribusikan di bawah Lisensi MIT. Lihat `LICENSE` untuk informasi lebih lanj
 
 ---
 
-## 📞 Kontak
+## 📞 Contact
 
 - **Email**: anisaandi1980@gmail.com
 - **LinkedIn**: [Andi Khaerunnisa Oddang](https://linkedin.com/in/andi-khaerunnisa-oddang-632330280)
