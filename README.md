@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/images/logo.png" alt="Eventify Logo" width="200">
+  <img src="public/images/logo-white.svg" alt="Eventify Logo" width="200">
 </p>
 
 <h1 align="center">Eventify</h1>
@@ -335,32 +335,6 @@ php artisan test --coverage
 
 ---
 
-## 📝 API Endpoints (Opsional)
-
-Jika ingin mengembangkan API, berikut beberapa endpoint yang bisa diimplementasikan:
-
-| Method | Endpoint | Deskripsi |
-|--------|----------|-----------|
-| GET | `/api/events` | List semua events |
-| GET | `/api/events/{slug}` | Detail event |
-| POST | `/api/bookings` | Buat booking baru |
-| GET | `/api/user/bookings` | List booking user |
-| POST | `/api/favorites/{event}` | Toggle favorite |
-
----
-
-## 🤝 Kontribusi
-
-Kontribusi sangat diterima! Silakan ikuti langkah berikut:
-
-1. Fork repository ini
-2. Buat branch fitur baru (`git checkout -b feature/AmazingFeature`)
-3. Commit perubahan (`git commit -m 'Add some AmazingFeature'`)
-4. Push ke branch (`git push origin feature/AmazingFeature`)
-5. Buat Pull Request
-
----
-
 ## 📄 Lisensi
 
 Didistribusikan di bawah Lisensi MIT. Lihat `LICENSE` untuk informasi lebih lanjut.
@@ -401,7 +375,7 @@ Didistribusikan di bawah Lisensi MIT. Lihat `LICENSE` untuk informasi lebih lanj
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/chxnsa">Your Name</a>
+  Made with ❤️ by <a href="https://github.com/chxnsa">Icha</a>
 </p>
 
 <p align="center">
